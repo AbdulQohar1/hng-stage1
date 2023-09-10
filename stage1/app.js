@@ -4,7 +4,7 @@ const app = express()
 app.get('/api', (req, res) => {
   return res.json({
     slack_name: req.query.slack_name,
-    'current_day': 'Thursday', 
+    'current_day': 'Sunday', 
     'utc_time': new Date().toISOString().split('.')[0]+'Z',
     track: req.query.track,
     'age': 25,
