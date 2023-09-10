@@ -8,7 +8,7 @@ app.get('/api', (req, res) => {
     'utc_time': new Date().toISOString().split('.')[0]+'Z',
     track: req.query.track,
     'age': 25,
-    'github_filename_url': 'https://github.com/AbdulQohar1/hng-stage1/tree/main/stage1',
+    'github_file_url': 'https://github.com/AbdulQohar1/hng-stage1/tree/main/stage1',
     'github_repo_url': 'https://github.com/AbdulQohar1/hng-stage1',
     'status_code': 200,
   });
