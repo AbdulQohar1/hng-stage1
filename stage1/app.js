@@ -8,10 +8,10 @@ app.get('/api', (req, res) => {
     'utc_time': new Date().toISOString().split('.')[0]+'Z',
     track: req.query.track,
     'age': 25,
-    'github_filename_url': '',
-    'github_repo_url': '',
+    'github_filename_url': 'https://github.com/AbdulQohar1/hng-stage1/tree/main/stage1',
+    'github_repo_url': 'https://github.com/AbdulQohar1/hng-stage1',
     'status_code': 200,
   });
 })
 
-app.listen(3000)
+app.listen(3000, () => console.log('listen on port 3000....'))
